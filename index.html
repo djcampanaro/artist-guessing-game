@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Artist Guessing Game</h2>
-    <div>
-        <img id="art-image" src="">
+    <div class="banner">
+        <h2>Artist Guessing Game</h2>
     </div>
-    <div>
-        <p id="artwork-title"></p>
+    <div class="artwork">
+        <img id="art-image" src="">
+        <div>
+            <p id="artwork-title"></p>
+        </div>
     </div>
     <div id="artist-buttons">
-        <div id="artist-option-1">
+        <div id="artist-option-1" class="button-box">
             <button id="option1" class="button">Option 1</button>
         </div>
-        <div id="artist-option-2">
+        <div id="artist-option-2" class="button-box">
             <button id="option2" class="button">Option 2</button>
         </div>
-        <div id="artist-option-3">
+        <div id="artist-option-3" class="button-box">
             <button id="option3" class="button">Option 3</button>
         </div>
+    </div>
+    <div class="counter-box">
+        <h3 id="counter">0</h3>
     </div>
     <script src="main.js"></script>
 </body>

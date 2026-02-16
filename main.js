@@ -105,16 +105,17 @@ function verifyGuess (x) {
     const buttons = document.getElementsByClassName('button');
     for (var i = 0; i < buttons.length; i++) {
         if (buttons[i].innerHTML === artist) {
-            buttons[i].style.background = 'yellow';
+            buttons[i].style.background = '#3ade6d';
         } else {
-            buttons[i].style.background = 'red';
+            buttons[i].style.background = '#f05c3e';
         }
     }
 
     // this will add a counter for all correct guesses
     chosenOption = x.srcElement;
     if (chosenOption.innerHTML === artist) {
-
+        let counter = document.getElementById('counter');
+        counter.innerHTML = parseInt(counter.innerHTML) + 1;
     } else {
     }
     artistGuessingGame()

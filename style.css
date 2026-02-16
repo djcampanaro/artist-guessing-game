@@ -1,0 +1,55 @@
+body {
+    background-color: #e8f8ef;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+.banner {
+    margin-top: 14vh;
+    padding-bottom: 4vh;
+    text-align: center;
+}
+
+.artwork {
+    height: 48vh;
+    justify-content: center;
+    margin-bottom: 4vh;
+    position: relative;
+    text-align: center;
+}
+
+.artwork img {
+    height: 40vh;
+    margin: auto;
+    width: auto;
+}
+
+#artwork-title {
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, 0%)
+}
+
+#artist-buttons {
+    margin-top: 5.3vh;
+    text-align: center;
+}
+
+.button-box {
+    display: inline-block;
+    margin: 10px;
+}
+
+.button {
+    font-size: 1.2em;
+}
+
+.counter-box {
+    height: 4vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 4vh;
+}
